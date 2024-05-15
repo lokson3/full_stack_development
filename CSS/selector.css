@@ -1,0 +1,35 @@
+/* Css selector are use to select the element to style */
+h1 {
+    background-color: green;
+}
+/* selecting with id with an h1 element */
+#header {
+    background-color: red;
+}
+/* selecting with class attribute */
+.heading {
+    background-color: blue;
+}
+/* class for all atrributes of the same value above for p tag: p will also have a background of blue */
+/* a tag element with a class: this will make h1 be overwritten to have a background of yellow */
+h1.heading {
+    background-color: yellow;
+}
+
+/* universal selectors for all kinds of seletor */
+
+* {
+    /* what is written here will affect every single elements */
+    color: black 
+}
+
+/* grouping selector */
+
+
+    
+
+h1.group1, h2.group2, h3.group3 {
+    /* everything here affects all headings above */
+    background-color: black;
+    color: white;
+}

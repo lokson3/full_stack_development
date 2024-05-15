@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Form is a way to collect inputs from the User: This forms(inputs) are mostly sent to the server for processing or where ever the data is needed-->
+
+    <!--Basuic reason for forms is to collect data fron Users-->
+
+    <form action="./recieved.html" method="GET" >
+        <!--GET for default GET to get the details on the url, POST for the opposite -->
+
+        <!--action attr tells where the form wil be sent to-->
+        <!--Labels are for the user to know what type of data to input-->
+
+        <!--Method: this is how the input is to be submit either by post or get method-->
+        <label for="username">Name</label><br>
+        <input type="text" name="username" id="username">
+        <br>
+        <label for="">School</label><br>
+        <input type="text" name="school" id="school"><br>
+        <label for="username">Olabisi</label>
+
+
+        <input type="checkbox" name="username" id="username" value="olabisi"><br>
+        <label for="username">Mercy</label>
+        <input type="checkbox" name="username" id="username" value="mercy"><br>
+        <br>
+        <hr>
+
+        <label for="marital-status">Unmarried</label>
+        <input type="radio" name="marital-status" id="marital-status" value="unmarried"><br>
+        <label for="marital-status">Married</label>
+        <input type="radio" name="marital-status" id="marital-status" value="married">
+
+        <br>
+
+        <input type="submit" value="Send">
+    </form>
+
+    
+</body>
+</html>

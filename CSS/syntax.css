@@ -1,0 +1,15 @@
+/*
+for css: selector & declerator example
+
+html - selector {
+
+    height: 100px - declerator
+
+    height - property
+    100px - value
+}
+
+*/
+body {
+    background-color: green;
+}
