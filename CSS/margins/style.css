@@ -1,0 +1,19 @@
+p {
+    margin-left: 50px;
+    margin-top: 20%;
+    margin-right: 20px; /*this will effect because it has no border to move relatively with */
+    margin-bottom: 10%;  /*this will effect because it has no border to move relatively with */
+}
+/* writing margin once while still assigning all positions top right bottom left */
+h1 {
+    margin: 20% 20px 10% 50px;
+}
+
+/* writing margin for all position at once with one value */
+
+h2 {
+    margin: 20px 20px 20px 20px;
+}
+p.mercy {
+    margin: 20px;
+}

@@ -1,0 +1,60 @@
+p.dotted {
+    border-style: dotted;
+}
+p.solid {
+    border-style: solid;
+}
+p.dashed {
+    border-style: dashed;
+}
+p.groove {
+    border-style: groove;
+}
+p.double {
+    border-style: double;
+}
+p.ridge {
+    border-style: ridge;
+}
+p.outset {
+    border-style: outset;
+}
+p.inset {
+    border-style: inset;
+}
+p.diff {
+    border-top-style: dotted;
+    border-bottom-style: solid;
+    border-right-style: dashed;
+    border-left-style: double;
+}
+
+/* different borders on a single line*/
+p.diff1 {
+    border-style: dotted dashed solid double;
+}
+
+p.width {
+    border-style: solid;
+   /* border-width: 6px; */
+   /*border-width: medium; */
+   border-width: thick;
+}
+p.w-diff {
+    border-style: solid;
+    border-width: 2px 4px 6px 7px;
+}
+p.b-color {
+    border-style: solid;
+    border-width: 2px 4px 6px 7px;
+    border-color: blue;
+}
+p.b-colordiff {
+    border-style: solid;
+    border-width: 2px 4px 6px 7px;
+    border-color: blue lightblue lightgreen lightskyblue;
+}
+p.b-signleLine{
+    border: 3px solid lightblue;
+    border-radius: 6px;
+}
