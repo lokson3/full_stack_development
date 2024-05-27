@@ -1,0 +1,12 @@
+h1.outline1 {
+    outline-style: solid;
+}
+h1.outline2 {
+    outline-style: dashed;
+}
+/* space between a border and outline - outline -offset*/
+h1.outline3 {
+    border: 2px solid green;
+    outline-style: dashed;
+    outline-offset: 10px; /*space of 10px between border and outline*/
+}

@@ -1,0 +1,61 @@
+h1.text1 {
+    color: blue;
+    background-color: red;
+}
+/* text-align - right, left, center. left by default */
+h1.text2 {
+    text-align: right;
+}
+
+/* text-align - justify*/
+
+h1.text3 {
+    text-align: justify;
+}
+
+/* text-align-last : align the last word of text */
+
+h1.text4 {
+    text-align-last: right;
+}
+
+b.vertical {
+    vertical-align: top;
+}
+
+/* text-decoration - thsi adds line to a text*/
+
+h1.text6 {
+    /*text-decoration: overline; 
+    /*text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-style: solid; /* style can vary */
+    text-decoration-thickness: 10px; /*A thicknes of 5px; */
+
+}
+/* text-decoration - single line declaration */
+
+/* text-decoration: line color style size */
+
+h1.text6 {
+    text-decoration: overline green solid 5px;
+}
+
+/* text-transform : it changes text to case - lower, uppercase, capitalise */
+
+h1.text6 {
+    text-transform: capitalize;
+}
+
+
+/* text-indent : this is to create indentaion luike writing a paragraph in a letter or speech */
+
+h1.text7 {
+    text-indent: 10px;
+}
+
+/* letter-spacing: this spaces characters in words in text */
+
+h1.text8 {
+    letter-spacing: 8px;
+}
